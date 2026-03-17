@@ -9,7 +9,7 @@ resource "aws_db_subnet_group" "db_subnets" {
 
 resource "aws_db_instance" "postgres" {
   engine         = "postgres"
-  engine_version = "16.3"
+  engine_version = "17.6"
   instance_class = "db.t3.micro"
 
   allocated_storage = 20

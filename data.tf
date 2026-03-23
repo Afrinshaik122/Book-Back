@@ -1,3 +1,3 @@
 data "aws_s3_bucket" "existing_bucket" {
-  bucket = book-backk
+  bucket = var.existing_s3_bucket
 }
